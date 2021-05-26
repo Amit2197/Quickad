@@ -466,8 +466,27 @@ a.hello{
   opacity: 1
 }
 
-.right{
-  position: absolute;
-  right: 0;
-  padding: 5px 12px;
+.plus{
+  width: 100%;
 }
+.plus:after{
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  right: 0;
+  margin-left: 5px;
+}
+
+.active::after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 48px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: transparent;
+}
+

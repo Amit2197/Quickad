@@ -8,6 +8,18 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
 }
 
+function dropdown() {
+    var x = document.getElementById("plus");
+    plus.classList.toggle("active")
+    var y = document.getElementById("content");
+    if (y.style.maxHeight){
+        y.style.maxHeight = null;
+      } else {
+        y.style.maxHeight = y.scrollHeight + "px";
+      } 
+    
+}
+
 var ctx = $("#line-chart");
 var myLineChart = new Chart(ctx, {
     type: 'line',
