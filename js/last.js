@@ -11,7 +11,7 @@ function closeNav() {
 function dropdown() {
     var x = document.getElementById("plus");
     plus.classList.toggle("active")
-    var y = document.getElementById("content");
+    var y = document.getElementById("dropAds");
     if (y.style.maxHeight){
         y.style.maxHeight = null;
       } else {

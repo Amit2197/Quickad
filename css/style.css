@@ -482,11 +482,54 @@ a.hello{
   content: "\2212";
 }
 
-.content {
+.dropAds {
   padding: 0 48px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: transparent;
+}
+
+.page {
+  background-color: rgb(207, 207, 207);
+  width: 90%;
+  padding: 20px;
+  margin: 40px auto;
+  height: auto;
+}
+
+.flex_sp_btn{
+  display: flex;
+  justify-content: space-between;
+}
+
+.table_list > table{
+  width: 100%;
+  border: none;
+}
+tr{
+  
+}
+th{
+  border-bottom: 2px solid rgb(184, 184, 184);
+}
+td{
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+th, td{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  
+}
+.action > a> i {
+  padding: 2px;
+  color: black;
+  background-color: #fff;
+}
+
+.action > a > i{
+  border: 1px solid rgb(194, 194, 194);
 }
 
