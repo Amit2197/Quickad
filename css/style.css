@@ -545,12 +545,17 @@ th, td{
   
 }
 .action > a> i {
-  padding: 2px;
+  padding: 4px;
   color: black;
   background-color: #fff;
+  font-size: 12px;
 }
 
 .action > a > i{
   border: 1px solid rgb(194, 194, 194);
+}
+
+.status{
+  padding: 2px 5px;background-color: rgb(4, 223, 51); border-radius: 12px/18px; width:80px; text-align: center; color:white; font-weight: bold;
 }
 
